@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Fira+Sans:wght@100&family=Inter:wght@100&family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Fira+Sans:wght@100&family=Inter:wght@100&family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Fira+Sans:wght@100&family=Inter:wght@100&display=swap");
+@font-face {
+  font-family: "Porpora";
+  src: url(../font-family/porpora/Porpora-Regular.ttf);
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  height: 1149px;
+  background: #1d4ed8;
+  margin-bottom: 150px;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+}
+header nav ul {
+  display: flex;
+  gap: 44px;
+}
+header nav ul li {
+  font-family: "Porpora", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #eff6ff;
+}
+header nav .login {
+  display: flex;
+  justify-content: space-around;
+  gap: 44px;
+}
+header nav .login button {
+  font-family: "Porpora", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #eff6ff;
+}
+header nav .login button:nth-of-type(1) {
+  background: none;
+  border: none;
+  outline: none;
+}
+header nav .login button:nth-of-type(2) {
+  color: #fde047;
+  padding: 10px 24px;
+  background: none;
+  outline: none;
+  border: 1px solid #fde047;
+}
+header .content {
+  position: relative;
+  padding-left: 60px;
+}
+header .content .content-text {
+  padding-top: 205px;
+  width: 564px;
+  height: 376px;
+}
+header .content .content-text h1 {
+  display: flex;
+  width: 564px;
+  height: 216px;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 72px;
+  color: #fff;
+}
+header .content .content-text h1 span {
+  color: #fde047;
+}
+header .content .content-text p {
+  display: flex;
+  width: 415px;
+  flex-direction: column;
+  font-family: "Porpora", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+header .content .content-text button {
+  margin-top: 28px;
+  color: #000;
+  font-family: "Porpora", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 18px 68px 18px 29px;
+  background: #fde047;
+  border: none;
+}
+header .content img {
+  width: 620px;
+  height: 895px;
+  position: absolute;
+  right: 0;
+  bottom: 172px;
+}
+header .content .brands {
+  width: 1099px;
+  height: 164px;
+  padding-top: 304px;
+}
+header .content .brands p {
+  font-family: "Porpora", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 24px;
+  color: #eff6ff;
+}
+header .content .brands ul {
+  width: 1099px;
+  height: 53px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 26px;
+}
+header .content .brands ul li > i {
+  font-size: 32px;
+}
+header .content .brands a {
+  text-decoration: none;
+  font-family: "Porpora", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 24px;
+  color: #eff6ff;
+}
+
+.graffic {
+  width: 1440px;
+  height: 992px;
+}
+.graffic h3 {
+  text-align: center;
+  position: relative;
+  width: 117px;
+  height: 22px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+}
+.graffic h3::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  background: #fde047;
+  z-index: -1;
+  left: -5px;
+  top: -5;
+}
+.graffic .graffic-content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 116px;
+  padding-left: 156px;
+}
+.graffic .graffic-content img {
+  width: 552px;
+  height: 512px;
+}
+.graffic .graffic-content .graffic-text p:nth-of-type(1) {
+  display: inline-block;
+  color: #9ca3af;
+  font-family: "Porpora", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 2px 8px;
+  border-radius: 15px;
+  background: #f1f5f9;
+}
+.graffic .graffic-content .graffic-text p:nth-of-type(2) {
+  display: flex;
+  width: 413px;
+  flex-direction: column;
+  font-family: "Porpora", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9ca3af;
+}
+.graffic .graffic-content .graffic-text h2 {
+  display: flex;
+  width: 454px;
+  flex-direction: column;
+  color: #111827;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+}
+.graffic .graffic-content .graffic-text a {
+  text-decoration: none;
+  font-family: "Porpora", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1d4ed8;
+}
+
+footer .footer-title {
+  padding-top: 227px;
+}
+footer .footer-title h2 {
+  font-family: "Porpora", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+  margin: 0 auto;
+  width: 270px;
+  font-family: Montserrat;
+  letter-spacing: 3px;
+}
+footer .footer-title h2::before {
+  position: relative;
+  top: 11px;
+  left: -6px;
+  z-index: -1;
+  content: "";
+  display: block;
+  background-color: yellow;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+footer .footer-title h3 {
+  font-family: "Porpora", sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #9ca3af;
+  padding-top: 24px;
+}
+footer .cards-2 {
+  gap: 28px;
+  display: grid;
+  grid-template-columns: 198px 198px 198px 198px;
+  grid-template-areas: 76px 76px 76px 76px;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+footer .cards-2 .card {
+  background: #fff;
+  box-shadow: 0px 4px 70px 0px rgba(91, 93, 99, 0.06);
+  display: flex;
+  align-items: center;
+  padding: 15px 20px 16px 12px;
+  border-radius: 11px;
+}
+footer .cards-2 .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 35px;
+  height: 35px;
+}
+footer .cards-2 .card .cardtext {
+  padding: 0 8px 0 12px;
+}
+footer .cards-2 .card .cardtext p {
+  font-size: 10px;
+  line-height: 20px;
+  color: #9ca3af;
+}
+footer .cards-2 .card .cardtext h2 {
+  font-size: 12px;
+  line-height: 20px;
+  color: #5b5d63;
+  font-family: DM Sans;
+}
+
+.ourservices .ourservices-title {
+  padding-top: 80px;
+}
+.ourservices .ourservices-title h2 {
+  font-family: "Porpora", sans-serif;
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111827;
+  text-align: center;
+}
+.ourservices .ourservices-title h2::before {
+  position: relative;
+  top: 9px;
+  left: 890px;
+  z-index: -1;
+  content: "";
+  display: block;
+  background-color: yellow;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.ourservices .ourservices-title h3 {
+  font-family: "Porpora", sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #9ca3af;
+  padding-top: 24px;
+}
+.ourservices .cards {
+  display: flex;
+  width: 935px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding-top: 80px;
+}
+.ourservices .cards .card {
+  width: 280px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ourservices .cards .card:hover {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.ourservices .cards .card p {
+  padding-top: 30px;
+  color: #9ca3af;
+}
+.ourservices .cards .card span {
+  font-size: 50px;
+}

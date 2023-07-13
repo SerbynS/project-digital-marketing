@@ -1,0 +1,108 @@
+header {
+  height: 1149px;
+  background: #1d4ed8;
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    ul {
+      display: flex;
+      gap: 44px;
+      li {
+        @include textStyle(400, 14px, 19px, "Porpora");
+        color: #eff6ff;
+      }
+    }
+    .login {
+      display: flex;
+      justify-content: space-around;
+      gap: 44px;
+      button {
+        @include textStyle(400, 14px, 19px, "Porpora");
+        color: #eff6ff;
+        &:nth-of-type(1) {
+          background: none;
+          border: none;
+          outline: none;
+        }
+        &:nth-of-type(2) {
+          color: #fde047;
+          padding: 10px 24px;
+          background: none;
+          outline: none;
+          border: 1px solid #fde047;
+        }
+      }
+    }
+  }
+  .content {
+    position: relative;
+    padding-left: 60px;
+    .content-text {
+      padding-top: 205px;
+      width: 564px;
+      height: 376px;
+      h1 {
+        display: flex;
+        width: 564px;
+        height: 216px;
+        flex-direction: column;
+        @include textStyle(600, 56px, 72px, "Montserrat");
+        color: #fff;
+        span {
+          color: #fde047;
+        }
+      }
+      p {
+        display: flex;
+        width: 415px;
+        flex-direction: column;
+        @include textStyle(100, 16px, 24px, "Porpora");
+        color: #fff;
+      }
+      button {
+        margin-top: 28px;
+        color: #000;
+        @include textStyle(500, 16px, 24px, "Porpora");
+        padding: 18px 68px 18px 29px;
+        background: #fde047;
+        border: none;
+      }
+    }
+    img {
+      width: 620px;
+      height: 895px;
+      position: absolute;
+      right: 0;
+      bottom: 172px;
+    }
+    .brands {
+      width: 1099px;
+      height: 164px;
+      padding-top: 304px;
+      p {
+        @include textStyle(100, 16px, 24px, "Porpora");
+        color: #eff6ff;
+      }
+      ul {
+        width: 1099px;
+        height: 53px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li > i {
+          font-size: 32px;
+        }
+        padding-bottom: 26px;
+      }
+      a {
+        text-decoration: none;
+        @include textStyle(100, 16px, 24px, "Porpora");
+        color: #eff6ff;
+      }
+    }
+  }
+  margin-bottom: 150px;
+}
